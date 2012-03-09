@@ -53,11 +53,11 @@ hr {
   width: 945px;
 }
 
-a:link, a:visited , a:hover , a:active{
+a:link, a:visited , a:hover , a:active {
   text-decoration: none;
 }
 
-.nav a:link, .nav a:visited , .nav a:hover , .nav a:active{
+.nav a:link, .nav a:visited , .nav a:hover , .nav a:active {
   font-size: 1em;
   font-family: arial, helvetica, sans-serif;
 }
