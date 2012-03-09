@@ -81,11 +81,6 @@ p {
   letter-spacing: .8px;
 }
 
-#codeContent h4 {
-  margin-bottom: 0px;
-  padding-bottom: 0px;
-}
-
 .highlight {
   background: #99ee22;
   font-size: .75em;
@@ -93,21 +88,4 @@ p {
 
 .hideit {
   display: none;
-}
-
-/* CODE PAGE CSS */
-pre {
-  line-height: 1.4;
-  border: 1px solid #ccc;
-  background: #000;
-  color: #fff;
-}
-
-.codeBlock {
-  font-size: .9em;
-}
-
-ol {
-  font-size: .9em;
-  line-height: 1.75;
 }
