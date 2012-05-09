@@ -107,6 +107,10 @@ p {
   margin-bottom: -5px;
 }
 
+#side p {
+  font-size: 14px;
+}
+
 .highlight {
   background: #99ee22;
   font-size: .75em;
