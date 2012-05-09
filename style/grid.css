@@ -42,6 +42,12 @@ html {
   overflow-y: scroll;
 }
 
+h2 {
+  font-family: Helvetica;
+  color: #595959;
+  text-transform: uppercase;
+}
+
 h3, h4, h5, h6 {
   margin: 5px auto 0 auto;
   color: #555;
@@ -62,13 +68,24 @@ a:link, a:visited , a:hover , a:active {
   font-family: arial, helvetica, sans-serif;
 }
 
-#header {
+#header_bg {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background: #444;
+  position: absolute;
+  height: 100px;
+  z-index: -100;
+}
+
+header {
   font-family: Helvetica;
+  color: #fff;
 }
 
 #subHeading {
   margin-top: -20px;
-  color: #999;
+  color: #c9c9c9;
 }
 
 #footer {
@@ -79,6 +96,14 @@ a:link, a:visited , a:hover , a:active {
 p {
   font-family: Georgia, times, serif;
   letter-spacing: .8px;
+}
+
+#side {
+  padding-left: 80px;
+}
+
+#side h2 {
+  margin-bottom: -5px;
 }
 
 .highlight {
@@ -92,4 +117,6 @@ p {
 
 li {
   list-style: none;
+  margin-bottom: 5px;
+  letter-spacing: 1.5px;
 }
