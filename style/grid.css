@@ -72,7 +72,7 @@ a {
   color: #777;
 }
 
-.nav a:hover , .nav a:active {
+a:hover , a:active {
   color: #22f;
 }
 
