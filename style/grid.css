@@ -68,12 +68,12 @@ a:link, a:visited , a:hover , a:active {
   font-family: arial, helvetica, sans-serif;
 }
 
-.nav a:hover , .nav a:active {
-  color: #22f;
-}
-
 a {
   color: #777;
+}
+
+.nav a:hover , .nav a:active {
+  color: #22f;
 }
 
 #header_bg {
