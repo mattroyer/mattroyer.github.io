@@ -68,6 +68,10 @@ a:link, a:visited , a:hover , a:active {
   font-family: arial, helvetica, sans-serif;
 }
 
+a {
+  color: #7777ff;
+}
+
 #header_bg {
   margin: 0;
   padding: 0;
