@@ -1,7 +1,7 @@
-$(document).ready(function() {
-  $.getJSON("https://api.github.com/users/mattroyer/gists?callback=?", function(json) {
-    $.each(json.data, function(index, value) {
-      $('#gists').append('<li><a href="' + value.html_url + '">' + value.description + '</a></li>');
-    });
-  });
-});
+fetch("https://api.github.com/users/mattroyer/gists")
+.then(response => response.json())
+.then(data => {
+  var gists = document.querySelector(".gists")
+  template = `${data.map(item => `<p><a href="${item.html_url}">${item.description}</a></p>` ).join("")}`
+  gists.innerHTML = template
+})
