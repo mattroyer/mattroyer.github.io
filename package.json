@@ -1,0 +1,16 @@
+{
+  "name": "mattroyer.github.io",
+  "version": "1.0.0",
+  "description": "Personal Site of Matt Royer",
+  "scripts": {
+    "build": "env NODE_ENV=production npx eleventy --pathprefix 'mattroyer'",
+    "serve": "npx eleventy --serve",
+    "debug": "DEBUG=* npx eleventy",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "Matt Royer",
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1"
+  }
+}
